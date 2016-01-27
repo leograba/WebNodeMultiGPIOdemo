@@ -1,0 +1,51 @@
+<!-- Client-side code -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> <!-- mobile first -->
+	<title>Colibri VF61 node.js webserver</title>
+	<!-- Add jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<!-- Using bootstrap -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="client.js"></script>
+</head>
+
+<body>
+	<div class="container">
+		<h1>Access to the VF61 GPIO using Node.js and AJAX</h1>
+		<div class="row">
+			<div class="col-sm-12">
+				<input type="button" class="btn btn-block btn-info" id="MSG" value="Application running">
+			</div>
+		</div>
+		<h2>LEDs</h2>
+		<div class="row">
+			<div class="col-sm-4">
+				<input type="button" class="btn btn-block true_btn" id="LED1">
+			</div>
+			<div class="col-sm-4">
+				<input type="button" class="btn btn-block true_btn" id="LED2">
+			</div>
+			<div class="col-sm-4">
+				<input type="button" class="btn btn-block true_btn" id="LED3">
+			</div>
+		</div>
+		<h2>Switches</h2>
+		<div class="row">
+			<div class="col-sm-4">
+				<input type="button" class="btn btn-block" id="SW1">
+			</div>
+			<div class="col-sm-4">
+				<input type="button" class="btn btn-block" id="SW2">
+			</div>
+			<div class="col-sm-4">
+				<input type="button" class="btn btn-block" id="SW3">
+			</div>
+		</div>
+	</div>
+</body>
+</html>
