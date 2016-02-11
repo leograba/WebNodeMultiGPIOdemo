@@ -24,7 +24,7 @@ const GPIO = {	LED1:'47',	LED2:'50',	LED3:'53',
 				SW1:'46',	SW2:'88',	SW3:'48'};
 
 /* Constants */
-const HIGH = 1, LOW = 0, IP_ADDR = '192.168.0.180', PORT_ADDR = 3000;
+const HIGH = 1, LOW = 0, IP_ADDR = '0.0.0.0', PORT_ADDR = 3000;
 	
 //starting app
 debug('Starting VF61 webserver and GPIO control'); //hello message
